@@ -17,6 +17,7 @@ SSID:  SSID3  Distance: 153.54 m
 
 Siehe: 
 Berechnung der Distance auf Basis der Signalstärke
+
 https://stackoverflow.com/questions/11217674/how-to-calculate-distance-from-wifi-router-using-signal-strength#11249007
 
 Kanalabhängikeit (Frequenz) ist relativ schwach, kann bei Bedarf berücksichtigt werden. 
