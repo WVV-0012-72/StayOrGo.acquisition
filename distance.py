@@ -1,6 +1,6 @@
 '''
     Simple WIFI Distance calculator
-    Proof of concept (running on Raspberry PI 3+
+    Proof of concept (running on Raspberry PI 3+)
     libraries requires math and rssi
     rssi need a path for Python3:
     Add raw_output = raw_output.decode('utf-8') before return
