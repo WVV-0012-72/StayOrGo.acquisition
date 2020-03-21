@@ -6,13 +6,21 @@ rssi available via PiPy (Bugfix notwendig, siehe distance.py)
 Ergebniss 
 
 >>> %Run distance.py
+
 Static Test: 30.63 m
+
 SSID:  SSID1  Distance: 13.68 m
+
 SSID:  SSDI_Mesh  Distance: 38.57 m
+
 SSID:  NOSSID   Distance: 8.63 m
+
 SSID:  SSID2  Distance: 38.57 m
+
 SSID:  SSDI_Mesh  Distance: 2.73 m
+
 SSID:  NOSSID  Distance: 12.20 m
+
 SSID:  SSID3  Distance: 153.54 m
 
 Siehe: 
