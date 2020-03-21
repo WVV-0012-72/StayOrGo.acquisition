@@ -4,7 +4,7 @@ Dies ist nur ein Prof of Concept um eine möglichst einfache Formel zur Bestimmu
 zischen WLAN Devices zu ermitteln. 
 Der Test läuft auf einem Raspberry PI 3+ mit Python 3.7 und Thonny. 
 
-Die Frequenz sollte berücksichtigt werden.2.4 und 5 Ghz WLAN und es macht doch Unterschiede. 
+Die Frequenz sollte berücksichtigt werden. 2.4 und 5 Ghz WLAN und es macht doch Unterschiede. 
 Ich habe die rssi Bibliothek ertüchtigt auch die Frequenz mit auszugeben. 
 
 Benötigt:  math and rrsi 
