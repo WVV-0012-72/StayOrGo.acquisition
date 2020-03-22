@@ -11,18 +11,21 @@
 '''
 
 import math
-import rssi
+from rssi.rssi import *
 interface  = 'wlan0'
-rssi_scanner = rssi.RSSI_Scan(interface)
+rssi_scanner = RSSI_Scan(interface)
 
-frequency = 2462 # Mhz 
+freq = 2462 # Mhz 
 signalLevel = -70 # dbm
-distance = 10 ** ((27.55 - (20 * math.log10(frequency)) + math.fabs(signalLevel))/20)
+distance = 10 ** ((27.55 - (20 * math.log10(freq)) + math.fabs(signalLevel))/20)
 print("Static Test: %2.2f m" % distance)
 ssids = []
-    
+signalStrength = []  
 ap_info = rssi_scanner.getAPinfo(networks=ssids,sudo=True)
-#print(ap_info)
+
 for k in ap_info:
-    print("SSID: ", k['ssid'] , " Signal Level: ", k['signal'] , " Distance: %2.2f m" % 10 ** ((27.55 - (20 * math.log10(frequency)) + math.fabs(k['signal']))/20)) 
-    
+    distance = 10 ** ((27.55 - (20 * math.log10(k['frequency']*1000)) + math.fabs(k['signal']))/20)
+    print("SSID: ", k['ssid'] ," Frequency: ", int(k['frequency']*1000)  , " Signal Level: ", k['signal']  , " Distance: %2.2f m" % distance) 
+
+
+
