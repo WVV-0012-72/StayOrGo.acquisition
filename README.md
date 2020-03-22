@@ -2,17 +2,19 @@
 
 Dies ist nur ein Prof of Concept um eine möglichst einfache Formel zur Bestimmung der Distanz 
 zischen WLAN Devices zu ermitteln. 
-Der Test läuft auf einem Raspberry PI 3+ mit Python 3.7 mit Thonny. 
+Der Test läuft auf einem Raspberry PI 3+ mit Python 3.7 und Thonny. 
 
+Die Frequenz sollte berücksichtigt werden. 2.4 und 5 Ghz WLAN und es macht doch Unterschiede. 
+Ich habe die rssi Bibliothek ertüchtigt auch die Frequenz mit auszugeben. 
 
 Benötigt:  math and rrsi 
-rssi kann in Thonny via PiPy instaliert werden (Bugfix notwendig, siehe distance.py) 
+rssi kann in Thonny via PiPy installiert werden (Bugfix notwendig, siehe distance.py) 
 
 Ergebnisse  
 
 >>> %Run distance.py
 
-Static Test: 30.63 m <- nur statich 
+Static Test: 30.63 m <- nur statisch 
 Die SSID sind anonymsiert und Accesspoint in meiner Umgebung. 
 SSID_Mesh ist mein Fritzbox Mesh WLAN. 
 
