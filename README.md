@@ -43,6 +43,8 @@ Weiter Quellen:
 Kurz erklärt: Positionsbestimmung im WLAN
 https://www.heise.de/select/ix/2019/10/1923312203089947066
 
+*** Fork der rssi lib (erweitert um MAC und Frequenz)
+
 Nächst Schritte:
 
 Überprüfen mit der in rssid enthaltenen Distanzfunktion
