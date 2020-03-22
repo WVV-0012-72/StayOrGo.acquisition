@@ -25,7 +25,7 @@ ap_info = rssi_scanner.getAPinfo(networks=ssids,sudo=True)
 
 for k in ap_info:
     distance = 10 ** ((27.55 - (20 * math.log10(k['frequency']*1000)) + math.fabs(k['signal']))/20)
-    print("SSID: ", k['ssid'] ," Frequency: ", int(k['frequency']*1000)  , " Signal Level: ", k['signal']  , " Distance: %2.2f m" % distance) 
+    print("SSID: ", k['ssid'] ," MAC: ", k['address'], " Frequency: ", int(k['frequency']*1000) , " Signal Level: ", k['signal']  , " Distance: %2.2f m" % distance) 
 
 
 
