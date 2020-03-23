@@ -45,7 +45,8 @@ SSID:  SSID3  Distance: 153.54 m
 Die Berechnung basiert auf einer einfachen Formel: 
 
 `distance = 10 ** ((27.55 - (20 * math.log10(freq)) + math.fabs(signalLevel))/20)`
-Besonders genau Ergebnisse erwrten wir daher nicht. 
+
+Besonders genau Ergebnisse könne wir nicht erwarten. 
 Ich schätze den Messfehler daher auf ca. 2-3 Meter bei Verwendung dieser einfachen Formel. 
 
 ### Weiterführende Informationen 
