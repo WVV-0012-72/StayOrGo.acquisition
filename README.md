@@ -46,12 +46,12 @@ Die Berechnung basiert auf einer einfachen Formel:
 
 `distance = 10 ** ((27.55 - (20 * math.log10(freq)) + math.fabs(signalLevel))/20)`
 
-Dieser relativ einfache Ansatz geht allerdigs von zwei isotropischen Antennen aus. 
-Das führt, da auch die Dämpfung, mögliche Reflektionen, usw... überhaupt nicht berücksichtigt werden 
-zu möglicherweise stark verfälschten Ergebnissen. Die so ermittelten Ergebnisse sind daher für eine sichere 
-Distanzmessung nicht besonders gut geeignet.  
+Dieser relativ einfache Ansatz geht allerdings von zwei isotropischen Antennen zwischen Sender und Empfänger aus. 
+Das führt, da auch Dämpfung, Reflektionen, usw... überhaupt nicht berücksichtigt werden 
+zu stark verfälschten Ergebnissen. Die so ermittelten Ergebnisse sind daher für eine sichere 
+Distanzmessung nicht geeignet.  
 
-Daher wurde dieser Ansatz nicht weiterverfolgt und auf die Abstandmessung verzichtet. 
+Daher wird dieser Ansatz nicht weiterverfolgt und auf die Abstandmessung verzichtet. 
 
 ### Weiterführende Informationen 
  
